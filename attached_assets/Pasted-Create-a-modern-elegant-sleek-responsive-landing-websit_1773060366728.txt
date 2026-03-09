@@ -1,0 +1,95 @@
+Create a modern elegant sleek responsive landing website for a software company called **SaaS by SSH**.
+
+Brand meaning:
+SaaS by SSH is a Software as a Service platform created by SSH that builds automation systems using WhatsApp messaging and chatbots.
+
+Purpose of the website:
+The website must look like a legitimate software company website suitable for WhatsApp Business Platform verification.
+
+TECH STACK
+Use HTML, CSS and small JavaScript. Clean professional startup design.
+
+HERO SECTION
+
+Title:
+"SaaS by SSH"
+
+Subtitle:
+"Automating Business Conversations and Bookings on WhatsApp"
+
+Description:
+"SaaS by SSH builds powerful automation platforms that allow businesses to interact with customers, manage bookings and send notifications directly through WhatsApp."
+
+Buttons:
+Request Demo
+Contact Us
+
+ABOUT SECTION
+
+Explain that SaaS by SSH develops Software as a Service platforms focused on WhatsApp messaging automation, chatbot systems and booking automation.
+
+Mention that the company helps businesses automate customer interactions and booking workflows.
+
+SERVICES SECTION
+
+WhatsApp Messaging Automation
+Automate customer communication, confirmations and notifications.
+
+WhatsApp Chatbot Systems
+Deploy chatbots that guide customers through queries and booking flows.
+
+Vehicle Booking via WhatsApp
+Customers can book taxis, buses or other vehicles directly through WhatsApp conversations.
+
+HOW IT WORKS
+
+Customer sends message on WhatsApp
+↓
+Chatbot processes request
+↓
+Booking system checks availability
+↓
+Confirmation sent to customer
+
+FEATURES
+
+• automated replies
+• WhatsApp notifications
+• booking management
+• scalable SaaS platform
+• business automation
+
+CONTACT SECTION
+
+Company: SaaS by SSH
+Email: [support@saasbyssh.example](mailto:support@saasbyssh.example)
+Location: India
+
+Include a simple contact form.
+
+FOOTER
+
+Include links:
+Privacy Policy
+Terms of Service
+
+Company description:
+"SaaS by SSH provides Software as a Service solutions focused on WhatsApp automation and booking systems."
+
+DESIGN
+
+Modern SaaS startup design
+Mobile responsive
+Professional color palette
+Clean typography
+
+Also generate simple Privacy Policy and Terms of Service pages suitable for a SaaS platform.
+
+**Important:**
+On the website also include a line such as:
+
+```
+SaaS by SSH – a software platform developed by SSH Technologies
+```
+
+This improves approval probability during **WhatsApp business verification**.
