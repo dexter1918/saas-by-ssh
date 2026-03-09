@@ -70,11 +70,6 @@ export default function Home() {
             variants={staggerContainer}
             className="max-w-4xl mx-auto space-y-8"
           >
-            <motion.div variants={fadeInUp} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm font-medium text-blue-300">
-              <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
-              WhatsApp Business Platform Verified
-            </motion.div>
-            
             <motion.h1 variants={fadeInUp} className="text-5xl md:text-7xl font-bold leading-tight">
               <span className="block text-white">SaaS by SSH</span>
               <span className="block text-gradient-primary mt-2">Automating Business Conversations</span>
@@ -137,6 +132,11 @@ export default function Home() {
           >
             {[
               {
+                icon: <CalendarDays className="w-8 h-8 text-purple-400" />,
+                title: "Vehicle Booking via WhatsApp",
+                desc: "Streamline bus seat booking and vehicle rental reservations entirely through WhatsApp chat."
+              },
+              {
                 icon: <MessageSquare className="w-8 h-8 text-blue-400" />,
                 title: "Messaging Automation",
                 desc: "Send bulk updates, transactional alerts, and automated follow-ups without lifting a finger."
@@ -145,11 +145,6 @@ export default function Home() {
                 icon: <Bot className="w-8 h-8 text-accent" />,
                 title: "Chatbot Systems",
                 desc: "Deploy intelligent virtual assistants that answer FAQs, qualify leads, and route complex queries 24/7."
-              },
-              {
-                icon: <CalendarDays className="w-8 h-8 text-purple-400" />,
-                title: "Vehicle Booking via WhatsApp",
-                desc: "Allow customers to browse inventory, select dates, and confirm vehicle rentals entirely inside chat."
               }
             ].map((service, i) => (
               <motion.div key={i} variants={fadeInUp} className="glass-panel p-8 rounded-2xl hover:-translate-y-2 transition-transform duration-300 group">
