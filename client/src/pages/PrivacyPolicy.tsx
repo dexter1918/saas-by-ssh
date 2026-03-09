@@ -56,8 +56,8 @@ export default function PrivacyPolicy() {
               <p>
                 If you have any questions about this privacy policy or our privacy practices, please contact us at:
                 <br />
-                <a href="mailto:support@saasbyssh.example" className="text-primary hover:underline mt-2 inline-block">
-                  support@saasbyssh.example
+                <a href="mailto:support@saasbyssh.com" className="text-primary hover:underline mt-2 inline-block">
+                  support@saasbyssh.com
                 </a>
               </p>
             </div>

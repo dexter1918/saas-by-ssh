@@ -19,8 +19,8 @@ export function Footer() {
             <div className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <a href="mailto:support@saasbyssh.example" className="hover:text-white transition-colors">
-                  support@saasbyssh.example
+                <a href="mailto:support@saasbyssh.com" className="hover:text-white transition-colors">
+                  support@saasbyssh.com
                 </a>
               </div>
               <div className="flex items-center gap-2">
@@ -59,7 +59,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-white/5 text-center flex flex-col items-center justify-center gap-4">
           <p className="text-sm text-muted-foreground font-medium bg-white/5 py-2 px-4 rounded-full border border-white/5">
-            SaaS by SSH – a software platform developed by SSH Technologies
+            SaaS by SSH – A Platform for Software as a Service Solutions
           </p>
           <p className="text-xs text-muted-foreground/60">
             &copy; {new Date().getFullYear()} SSH Technologies. All rights reserved.
