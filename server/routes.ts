@@ -21,6 +21,8 @@ export async function registerRoutes(
           field: err.errors[0].path.join('.'),
         });
       }
+
+      console.error("Error creating contact message", err);
       return res.status(500).json({ message: "Internal server error" });
     }
   });
