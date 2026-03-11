@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { MessageSquareCode, Mail, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -8,13 +8,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="md:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <MessageSquareCode className="w-4 h-4 text-white" />
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center text-lg">
+                🚌
               </div>
-              <span className="font-display font-bold text-lg">SaaS by SSH</span>
+              <span className="font-display font-bold text-lg">Bus Booking</span>
             </Link>
             <p className="text-muted-foreground text-sm max-w-sm leading-relaxed mb-6">
-              Automating Business Conversations and Bookings on WhatsApp. We build powerful automation platforms for forward-thinking companies.
+              Seamless bus ticket booking through WhatsApp. No apps. No hassle. Just simple, secure reservations.
             </p>
             <div className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
@@ -59,10 +59,10 @@ export function Footer() {
 
         <div className="pt-8 border-t border-white/5 text-center flex flex-col items-center justify-center gap-4">
           <p className="text-sm text-muted-foreground font-medium bg-white/5 py-2 px-4 rounded-full border border-white/5">
-            SaaS by SSH – A Platform for Software as a Service Solutions
+            🚌 WhatsApp Bus Ticket Booking Platform
           </p>
           <p className="text-xs text-muted-foreground/60">
-            &copy; {new Date().getFullYear()} SSH Technologies. All rights reserved.
+            &copy; {new Date().getFullYear()} Bus Booking Co. All rights reserved.
           </p>
         </div>
       </div>

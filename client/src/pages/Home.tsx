@@ -71,12 +71,12 @@ export default function Home() {
             className="max-w-4xl mx-auto space-y-8"
           >
             <motion.h1 variants={fadeInUp} className="text-5xl md:text-7xl font-bold leading-tight">
-              <span className="block text-white">SaaS by SSH</span>
-              <span className="block text-gradient-primary mt-2">Automating Business Conversations</span>
+              <span className="block text-white">🚌 Bus Ticket Booking</span>
+              <span className="block text-gradient-primary mt-2">via WhatsApp</span>
             </motion.h1>
             
             <motion.p variants={fadeInUp} className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-              SaaS by SSH builds powerful automation platforms that allow businesses to interact with customers, manage bookings and send notifications directly through WhatsApp.
+              Book your bus tickets seamlessly through WhatsApp. No app downloads needed. Simple, fast, and secure reservations at your fingertips.
             </motion.p>
             
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
@@ -109,7 +109,7 @@ export default function Home() {
           >
             <h2 className="text-3xl md:text-4xl font-display font-bold">About Us</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              SaaS by SSH develops cutting-edge Software as a Service platforms focused entirely on transforming how businesses communicate. We specialize in WhatsApp messaging automation, intelligent chatbot systems, and seamless booking automation to help you scale your customer interactions effortlessly.
+              We're revolutionizing bus ticket booking with WhatsApp integration. Our platform makes it incredibly easy for travelers to search, book, and receive confirmations without leaving WhatsApp. Supporting bus operators and travel agencies with a modern, customer-friendly booking solution.
             </p>
           </motion.div>
         </div>
@@ -119,8 +119,8 @@ export default function Home() {
       <section id="services" className="py-24 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-display font-bold text-white">Our Core Services</h2>
-            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Everything you need to run your business through the world's most popular messaging app.</p>
+            <h2 className="text-3xl md:text-5xl font-display font-bold text-white">Our Services</h2>
+            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Complete bus ticket booking solutions powered by WhatsApp.</p>
           </div>
 
           <motion.div 
@@ -133,18 +133,18 @@ export default function Home() {
             {[
               {
                 icon: <CalendarDays className="w-8 h-8 text-purple-400" />,
-                title: "Vehicle Booking via WhatsApp",
-                desc: "Streamline bus seat booking and vehicle rental reservations entirely through WhatsApp chat."
+                title: "Instant Seat Selection",
+                desc: "Browse routes, check availability, and select your preferred seats—all through WhatsApp."
               },
               {
                 icon: <MessageSquare className="w-8 h-8 text-blue-400" />,
-                title: "Messaging Automation",
-                desc: "Send bulk updates, transactional alerts, and automated follow-ups without lifting a finger."
+                title: "Smart Confirmations",
+                desc: "Receive instant booking confirmations, ticket details, and fare breakdowns via WhatsApp."
               },
               {
                 icon: <Bot className="w-8 h-8 text-accent" />,
-                title: "Chatbot Systems",
-                desc: "Deploy intelligent virtual assistants that answer FAQs, qualify leads, and route complex queries 24/7."
+                title: "24/7 Support Chatbot",
+                desc: "AI-powered assistant answers queries, handles rebooking, and provides real-time trip updates."
               }
             ].map((service, i) => (
               <motion.div key={i} variants={fadeInUp} className="glass-panel p-8 rounded-2xl hover:-translate-y-2 transition-transform duration-300 group">
@@ -165,8 +165,8 @@ export default function Home() {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-display font-bold text-white">How It Works</h2>
-            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">A frictionless journey from first message to final confirmation.</p>
+            <h2 className="text-3xl md:text-5xl font-display font-bold text-white">Booking in 4 Steps</h2>
+            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">From message to ticket—fast, simple, and secure.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
@@ -174,10 +174,10 @@ export default function Home() {
             <div className="hidden md:block absolute top-1/2 left-[10%] right-[10%] h-[2px] bg-gradient-to-r from-primary/10 via-primary/40 to-primary/10 -translate-y-1/2 z-0" />
             
             {[
-              { step: "01", title: "Customer Message", desc: "User sends a message to your WhatsApp Business number.", icon: <MessageSquare /> },
-              { step: "02", title: "AI Processing", desc: "Our chatbot instantly parses intent and required details.", icon: <Bot /> },
-              { step: "03", title: "System Check", desc: "Verifies availability in your booking or inventory system.", icon: <CalendarDays /> },
-              { step: "04", title: "Confirmation", desc: "Customer receives a formatted WhatsApp confirmation.", icon: <CheckCircle2 /> }
+              { step: "01", title: "Send Details", desc: "Tell us your journey—origin, destination, and date.", icon: <MessageSquare /> },
+              { step: "02", title: "Get Options", desc: "See available routes, fares, and real-time seat inventory.", icon: <CalendarDays /> },
+              { step: "03", title: "Book & Pay", desc: "Select seats and complete payment securely in WhatsApp.", icon: <CheckCircle2 /> },
+              { step: "04", title: "Get Ticket", desc: "Receive your e-ticket and boarding details instantly.", icon: <Bot /> }
             ].map((item, i) => (
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
@@ -205,17 +205,17 @@ export default function Home() {
       <section id="features" className="py-24 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-display font-bold text-white">Platform Features</h2>
-            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Built for scale, designed for simplicity.</p>
+            <h2 className="text-3xl md:text-5xl font-display font-bold text-white">Why Choose Us</h2>
+            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">The easiest way to book bus tickets.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { icon: <Zap />, title: "Automated Replies", text: "Instant responses based on predefined rules or AI models." },
-              { icon: <BellRing />, title: "WhatsApp Notifications", text: "Proactive alerts for appointments, billing, and updates." },
-              { icon: <CalendarDays />, title: "Booking Management", text: "End-to-end reservation flows inside the chat interface." },
-              { icon: <TrendingUp />, title: "Scalable SaaS", text: "Cloud infrastructure that grows seamlessly with your business." },
-              { icon: <Workflow />, title: "Business Automation", text: "Connect your existing CRM and databases via webhooks." }
+              { icon: <Zap />, title: "Instant Booking", text: "Complete your reservation in minutes without apps." },
+              { icon: <BellRing />, title: "Real-time Updates", text: "Get alerts for booking confirmations, travel tips, and delays." },
+              { icon: <CalendarDays />, title: "Easy Management", text: "Modify, reschedule, or cancel bookings anytime via chat." },
+              { icon: <TrendingUp />, title: "Best Fares", text: "Access competitive pricing and exclusive WhatsApp-only deals." },
+              { icon: <Workflow />, title: "Seamless Integration", text: "Works with major payment gateways and bus operators." }
             ].map((feat, i) => (
               <motion.div 
                 initial={{ opacity: 0, scale: 0.95 }}
@@ -242,8 +242,8 @@ export default function Home() {
       <section id="contact" className="py-24 bg-gradient-to-b from-transparent to-card/80 border-t border-white/5">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-display font-bold text-white">Get in Touch</h2>
-            <p className="text-muted-foreground text-lg">Ready to automate your WhatsApp presence? Let's talk.</p>
+            <h2 className="text-3xl md:text-5xl font-display font-bold text-white">Ready to Book?</h2>
+            <p className="text-muted-foreground text-lg">Get started with WhatsApp bus ticket booking today. Contact us to learn more or request a demo.</p>
           </div>
 
           <motion.div 
