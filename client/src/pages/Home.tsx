@@ -71,8 +71,8 @@ export default function Home() {
             className="max-w-4xl mx-auto space-y-8"
           >
             <motion.h1 variants={fadeInUp} className="text-5xl md:text-7xl font-bold leading-tight">
-              <span className="block text-white">🚌 Bus Ticket Booking</span>
-              <span className="block text-gradient-primary mt-2">via WhatsApp</span>
+              <span className="block text-white">SaaS by SSH</span>
+              <span className="block text-gradient-primary mt-2">Bus Ticket Booking via WhatsApp</span>
             </motion.h1>
             
             <motion.p variants={fadeInUp} className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
