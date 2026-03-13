@@ -3,7 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 const LAST_UPDATED = "June 13, 2025";
-const BUSINESS_NAME = "SSH Technologies";
+const BUSINESS_NAME = "SaaS by SSH";
 const BRAND_NAME = "SaaS by SSH";
 const EMAIL = "support@saasbyssh.com";
 const PHONE = "+91 8670582856";
@@ -18,7 +18,7 @@ function UL({ children }: { children: React.ReactNode }) {
 function ContactBlock() {
   return (
     <address className="not-italic space-y-1 mt-3 text-sm">
-      <p className="font-semibold text-white">{BUSINESS_NAME} ({BRAND_NAME})</p>
+      <p className="font-semibold text-white">{BUSINESS_NAME}</p>
       <p>{ADDRESS}</p>
       <p>Email: <a href={`mailto:${EMAIL}`} className="text-primary hover:underline">{EMAIL}</a></p>
       <p>Phone: <a href={`tel:${PHONE.replace(/\s/g, "")}`} className="text-primary hover:underline">{PHONE}</a></p>
@@ -43,8 +43,7 @@ export default function TermsOfService() {
               <H2>1. Agreement to Terms</H2>
               <p>
                 These Terms of Service ("Terms") constitute a legally binding agreement between you ("Operator",
-                "you", or "your") and <strong className="text-white">{BUSINESS_NAME}</strong>, operating as{" "}
-                <strong className="text-white">{BRAND_NAME}</strong> ("Company", "we", "us", or "our"), governing
+                "you", or "your") and <strong className="text-white">{BRAND_NAME}</strong> ("Company", "we", "us", or "our"), governing
                 your access to and use of the SaaS by SSH platform and related services.
               </p>
               <p>

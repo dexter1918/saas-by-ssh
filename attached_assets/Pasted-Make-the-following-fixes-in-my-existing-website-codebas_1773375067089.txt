@@ -1,0 +1,98 @@
+Make the following fixes in my existing website codebase without breaking layout styling routing or existing functionality.
+
+TASK 1 — Legal Name Consistency Fix
+
+Problem:
+The Terms of Service and possibly other policy pages currently use the name "SSH Technologies" in multiple places. My actual legal and brand name is ONLY "SaaS by SSH". There is no separate entity named SSH Technologies.
+
+Required action:
+
+1. Search the entire project for all occurrences of:
+
+   * "SSH Technologies"
+   * Any variation like "SSH Tech", "SSH Tech Pvt", etc.
+
+2. Replace them consistently with:
+   → "SaaS by SSH"
+
+3. Update legal phrasing properly. Example:
+   Replace:
+   "SSH Technologies, operating as SaaS by SSH"
+   With:
+   "SaaS by SSH"
+
+4. Ensure the company definition section at the top of Terms becomes:
+   "SaaS by SSH ("Company", "we", "us", or "our")"
+
+5. Update:
+
+   * Terms of Service
+   * Privacy Policy
+   * Refund Policy
+   * Footer
+   * Contact page
+   * Metadata
+   * Any JSON config
+   * Email templates if present
+   * Backend constants if present
+
+6. Do NOT change routing slugs URLs or SEO structure.
+
+7. After changes provide:
+
+   * List of files modified
+   * Diff style summary
+
+TASK 2 — Policy Pages Scroll-to-Top Fix
+
+Problem:
+When clicking footer links:
+
+* Privacy Policy
+* Terms of Service
+* Refund Policy
+
+The page navigates but does NOT scroll to top.
+
+Required behavior:
+Every route change must automatically scroll viewport to top.
+
+Implement based on detected stack:
+
+IF React / Next.js / SPA:
+
+* Add global scroll-to-top on route change
+* Use router event listener or layout effect
+
+IF React Router:
+
+* Implement ScrollToTop component using useLocation()
+
+IF Next.js App Router:
+
+* Use useEffect in layout.tsx or page wrapper
+
+IF Next.js Pages Router:
+
+* Use Router.events.on('routeChangeComplete')
+
+IF plain JS:
+
+* window.scrollTo(0,0) on navigation click
+
+Requirements:
+
+* Must work on mobile
+* Must work on browser back/forward
+* Must not cause layout shift
+* Must not break smooth scroll where explicitly used
+
+After implementation:
+
+* Explain which approach used
+* Confirm tested routes
+* Provide minimal reusable implementation
+
+Do NOT refactor unrelated code.
+Do NOT redesign UI.
+Only fix naming consistency and scroll behavior.

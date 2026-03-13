@@ -3,7 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 const LAST_UPDATED = "June 13, 2025";
-const BUSINESS_NAME = "SSH Technologies";
+const BUSINESS_NAME = "SaaS by SSH";
 const BRAND_NAME = "SaaS by SSH";
 const EMAIL = "support@saasbyssh.com";
 const PHONE = "+91 8670582856";
@@ -21,7 +21,7 @@ function UL({ children }: { children: React.ReactNode }) {
 function ContactBlock() {
   return (
     <address className="not-italic space-y-1 mt-3 text-sm">
-      <p className="font-semibold text-white">{BUSINESS_NAME} ({BRAND_NAME})</p>
+      <p className="font-semibold text-white">{BUSINESS_NAME}</p>
       <p>{ADDRESS}</p>
       <p>Email: <a href={`mailto:${EMAIL}`} className="text-primary hover:underline">{EMAIL}</a></p>
       <p>Phone: <a href={`tel:${PHONE.replace(/\s/g, "")}`} className="text-primary hover:underline">{PHONE}</a></p>
@@ -45,7 +45,7 @@ export default function PrivacyPolicy() {
 
               <H2>1. Introduction</H2>
               <p>
-                {BUSINESS_NAME} ("<strong className="text-white">{BRAND_NAME}</strong>", "we", "us", or "our") operates a
+                <strong className="text-white">{BRAND_NAME}</strong> ("Company", "we", "us", or "our") operates a
                 WhatsApp-based Software-as-a-Service (SaaS) platform that provides automation and booking workflow
                 services to transport operators. This Privacy Policy describes how we collect, use, store, and disclose
                 personal data when you use our platform, visit our website at{" "}

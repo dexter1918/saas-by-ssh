@@ -77,7 +77,7 @@ export function Footer() {
             SaaS by SSH – WhatsApp Bus Ticket Booking Platform
           </p>
           <p className="text-xs text-muted-foreground/60">
-            &copy; {new Date().getFullYear()} SSH Technologies. All rights reserved.
+            &copy; {new Date().getFullYear()} SaaS by SSH. All rights reserved.
           </p>
         </div>
       </div>

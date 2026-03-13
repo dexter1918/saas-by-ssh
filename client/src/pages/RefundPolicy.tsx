@@ -3,7 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 const LAST_UPDATED = "June 13, 2025";
-const BUSINESS_NAME = "SSH Technologies";
+const BUSINESS_NAME = "SaaS by SSH";
 const BRAND_NAME = "SaaS by SSH";
 const EMAIL = "support@saasbyssh.com";
 const PHONE = "+91 8670582856";
@@ -18,7 +18,7 @@ function UL({ children }: { children: React.ReactNode }) {
 function ContactBlock() {
   return (
     <address className="not-italic space-y-1 mt-3 text-sm">
-      <p className="font-semibold text-white">{BUSINESS_NAME} ({BRAND_NAME})</p>
+      <p className="font-semibold text-white">{BUSINESS_NAME}</p>
       <p>{ADDRESS}</p>
       <p>Email: <a href={`mailto:${EMAIL}`} className="text-primary hover:underline">{EMAIL}</a></p>
       <p>Phone: <a href={`tel:${PHONE.replace(/\s/g, "")}`} className="text-primary hover:underline">{PHONE}</a></p>
@@ -42,7 +42,7 @@ export default function RefundPolicy() {
 
               <H2>1. Our Commitment</H2>
               <p>
-                At <strong className="text-white">{BRAND_NAME}</strong> ({BUSINESS_NAME}), we are committed to
+                At <strong className="text-white">{BRAND_NAME}</strong>, we are committed to
                 delivering a high-quality WhatsApp-based booking automation platform for transport operators. If you
                 are not satisfied with the platform, we offer a{" "}
                 <strong className="text-white">30-day money-back guarantee</strong> on your initial subscription
