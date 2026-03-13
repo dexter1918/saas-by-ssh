@@ -97,20 +97,56 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ABOUT SECTION */}
+      {/* ABOUT / PRODUCT DESCRIPTION SECTION */}
       <section id="about" className="py-24 bg-card/50 border-y border-white/5 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div 
-            initial="hidden" 
-            whileInView="visible" 
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
-            variants={fadeInUp}
-            className="max-w-3xl mx-auto text-center space-y-6"
+            variants={staggerContainer}
+            className="space-y-16"
           >
-            <h2 className="text-3xl md:text-4xl font-display font-bold">About Us</h2>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              We're revolutionizing bus ticket booking with WhatsApp integration. Our platform makes it incredibly easy for travelers to search, book, and receive confirmations without leaving WhatsApp. Supporting bus operators and travel agencies with a modern, customer-friendly booking solution.
-            </p>
+            {/* About intro */}
+            <motion.div variants={fadeInUp} className="max-w-3xl mx-auto text-center space-y-6">
+              <h2 className="text-3xl md:text-4xl font-display font-bold">About SaaS by SSH</h2>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                SaaS by SSH is a B2B Software-as-a-Service platform built specifically for bus operators and fleet
+                owners. We provide a fully managed WhatsApp-based ticketing system that lets your customers search
+                routes, book seats, make payments, and receive e-tickets—entirely inside WhatsApp, with zero app
+                downloads required.
+              </p>
+            </motion.div>
+
+            {/* Product description cards */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {[
+                {
+                  label: "Who It's For",
+                  content:
+                    "Bus operators, fleet owners, and travel agencies who want to offer a modern, frictionless booking experience to their passengers without building a dedicated mobile app."
+                },
+                {
+                  label: "What It Does",
+                  content:
+                    "Our SaaS platform connects your bus inventory and scheduling system to WhatsApp. Passengers can message your business number to check availability, select seats, pay, and get instant e-ticket confirmations."
+                },
+                {
+                  label: "Key Features",
+                  content:
+                    "Real-time seat availability, automated booking confirmations, payment gateway integration, cancellation & rebooking flows, trip alerts, and a 24/7 AI support chatbot—all managed from one dashboard."
+                }
+              ].map((card, i) => (
+                <motion.div
+                  key={i}
+                  variants={fadeInUp}
+                  className="bg-card/60 border border-white/10 rounded-2xl p-7 space-y-3"
+                >
+                  <h3 className="text-base font-semibold text-primary uppercase tracking-wide">{card.label}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{card.content}</p>
+                </motion.div>
+              ))}
+            </div>
           </motion.div>
         </div>
       </section>

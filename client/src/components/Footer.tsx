@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Mail, MapPin } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 export function Footer() {
   return (
@@ -18,14 +18,24 @@ export function Footer() {
             </p>
             <div className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-primary" />
+                <Mail className="w-4 h-4 text-primary shrink-0" />
                 <a href="mailto:support@saasbyssh.com" className="hover:text-white transition-colors">
                   support@saasbyssh.com
                 </a>
               </div>
-              <div className="flex items-center gap-2">
-                <MapPin className="w-4 h-4 text-primary" />
-                <span>India</span>
+              <div className="flex items-start gap-2">
+                <Phone className="w-4 h-4 text-primary shrink-0 mt-0.5" />
+                <a href="tel:+918670582856" className="hover:text-white transition-colors">
+                  +91 8670582856
+                </a>
+              </div>
+              <div className="flex items-start gap-2">
+                <MapPin className="w-4 h-4 text-primary shrink-0 mt-0.5" />
+                <address className="not-italic leading-relaxed">
+                  Kotbarh, Uttar Kotbarh<br />
+                  East Medinipur, West Bengal – 721626<br />
+                  India
+                </address>
               </div>
             </div>
           </div>
@@ -51,6 +61,11 @@ export function Footer() {
               <li>
                 <Link href="/terms-of-service" className="hover:text-white transition-colors">
                   Terms of Service
+                </Link>
+              </li>
+              <li>
+                <Link href="/refund-policy" className="hover:text-white transition-colors">
+                  Refund Policy
                 </Link>
               </li>
             </ul>

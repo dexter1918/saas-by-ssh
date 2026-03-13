@@ -32,9 +32,10 @@ export default function TermsOfService() {
 
               <h2 className="text-xl font-bold text-white mt-8 mb-4">3. Service Description</h2>
               <p>
-                SaaS by SSH provides software tools for automating WhatsApp messaging, chatbot building, and 
-                booking management. We reserve the right to modify, suspend, or discontinue any part of the 
-                service at any time without notice.
+                SaaS by SSH provides a WhatsApp-based bus ticket booking SaaS platform for bus operators, fleet
+                owners, and travel agencies. The platform enables end-to-end ticketing workflows—including seat
+                selection, payment, and e-ticket delivery—delivered entirely through WhatsApp. We reserve the right
+                to modify, suspend, or discontinue any part of the service at any time with reasonable notice.
               </p>
 
               <h2 className="text-xl font-bold text-white mt-8 mb-4">4. Meta / WhatsApp Terms</h2>
@@ -53,9 +54,28 @@ export default function TermsOfService() {
 
               <h2 className="text-xl font-bold text-white mt-8 mb-4">6. Governing Law</h2>
               <p>
-                These terms and conditions are governed by and construed in accordance with the laws of India 
-                and you irrevocably submit to the exclusive jurisdiction of the courts in that location.
+                These terms and conditions are governed by and construed in accordance with the laws of India.
+                You irrevocably submit to the exclusive jurisdiction of the courts of West Bengal, India.
               </p>
+
+              <h2 className="text-xl font-bold text-white mt-8 mb-4">7. Contact</h2>
+              <address className="not-italic space-y-1">
+                <p className="font-medium text-white">SSH Technologies</p>
+                <p>Kotbarh, Uttar Kotbarh, East Medinipur</p>
+                <p>West Bengal – 721626, India</p>
+                <p>
+                  Email:{" "}
+                  <a href="mailto:support@saasbyssh.com" className="text-primary hover:underline">
+                    support@saasbyssh.com
+                  </a>
+                </p>
+                <p>
+                  Phone:{" "}
+                  <a href="tel:+918670582856" className="text-primary hover:underline">
+                    +91 8670582856
+                  </a>
+                </p>
+              </address>
             </div>
           </div>
         </div>

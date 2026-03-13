@@ -47,19 +47,31 @@ export default function PrivacyPolicy() {
 
               <h2 className="text-xl font-bold text-white mt-8 mb-4">4. WhatsApp Integration Data</h2>
               <p>
-                As a WhatsApp automation platform, we process messages passing through our systems strictly for the 
-                purpose of delivering the automation services you request. We adhere to WhatsApp Business Platform 
-                terms and do not use message content for external advertising or unauthorized profiling.
+                As a WhatsApp-based bus ticket booking platform, we process messages strictly for the purpose of
+                delivering booking services. This includes journey details, seat preferences, and payment
+                confirmations. We adhere to Meta's WhatsApp Business Platform terms and do not use message content
+                for external advertising or unauthorized profiling.
               </p>
 
               <h2 className="text-xl font-bold text-white mt-8 mb-4">5. Contact Us</h2>
-              <p>
-                If you have any questions about this privacy policy or our privacy practices, please contact us at:
-                <br />
-                <a href="mailto:support@saasbyssh.com" className="text-primary hover:underline mt-2 inline-block">
-                  support@saasbyssh.com
-                </a>
-              </p>
+              <p>If you have any questions about this Privacy Policy, please contact us:</p>
+              <address className="not-italic space-y-1 mt-2">
+                <p className="font-medium text-white">SSH Technologies</p>
+                <p>Kotbarh, Uttar Kotbarh, East Medinipur</p>
+                <p>West Bengal – 721626, India</p>
+                <p>
+                  Email:{" "}
+                  <a href="mailto:support@saasbyssh.com" className="text-primary hover:underline">
+                    support@saasbyssh.com
+                  </a>
+                </p>
+                <p>
+                  Phone:{" "}
+                  <a href="tel:+918670582856" className="text-primary hover:underline">
+                    +91 8670582856
+                  </a>
+                </p>
+              </address>
             </div>
           </div>
         </div>
