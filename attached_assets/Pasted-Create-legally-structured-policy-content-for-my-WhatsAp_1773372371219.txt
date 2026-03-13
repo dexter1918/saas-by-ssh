@@ -1,0 +1,71 @@
+Create legally structured policy content for my WhatsApp-based SaaS platform that provides automation and booking workflow services to transport operators. The policies must be suitable for Meta Business verification, payment gateway onboarding, and general SaaS compliance.
+
+Before generating content, ask me for any missing business details such as:
+
+* Legal business name
+* Business address
+* Support email
+* Support phone number
+* Jurisdiction (country/state)
+* Refund model (subscription, usage-based, or custom)
+* Data processing scope (what user data is stored)
+
+Then generate the following pages:
+
+1. Privacy Policy
+   Include:
+
+* Data collected (user messages, phone numbers, operator data, usage logs)
+* Purpose of processing (service delivery, analytics, support)
+* Third-party integrations (WhatsApp, hosting providers, analytics tools)
+* Data retention policy
+* User rights (access, correction, deletion)
+* Security practices
+* International data transfer clause if applicable
+* Contact section
+
+2. Terms of Service
+   Include:
+
+* Nature of service (software platform, not transport provider)
+* User responsibilities (lawful use, consent for messaging)
+* Service availability disclaimer
+* Payment and subscription terms
+* Intellectual property ownership
+* Limitation of liability
+* Termination conditions
+* Governing law
+
+3. Refund Policy
+   Include:
+
+* Refund eligibility conditions
+* Non-refundable cases (usage already consumed, violations)
+* Refund request procedure
+* Timeline for processing refunds
+* Subscription cancellation rules
+
+4. Product Description Section (for landing page)
+   Write clear structured copy explaining:
+
+* What the platform does
+* Who it is for (transport operators)
+* Key features (WhatsApp automation, booking workflow, notifications)
+* Value proposition (automation efficiency, customer engagement)
+* Not acting as ticket reseller or transport provider
+
+Implementation rules:
+
+* Use professional SaaS legal tone
+* Avoid generic filler content
+* Structure with headings and bullet points
+* Ensure consistency across policies
+* Add internal links between policy pages
+* Ensure content is SEO friendly
+* Ensure compliance orientation for messaging platform policies
+
+After generating, provide:
+
+* Editable markdown or HTML
+* Suggested placement in website routing
+* List of assumptions used

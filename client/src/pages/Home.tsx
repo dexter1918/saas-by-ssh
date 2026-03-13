@@ -108,45 +108,91 @@ export default function Home() {
             className="space-y-16"
           >
             {/* About intro */}
-            <motion.div variants={fadeInUp} className="max-w-3xl mx-auto text-center space-y-6">
+            <motion.div variants={fadeInUp} className="max-w-3xl mx-auto text-center space-y-5">
+              <span className="inline-block text-xs font-semibold uppercase tracking-widest text-primary border border-primary/30 bg-primary/10 px-4 py-1.5 rounded-full">
+                B2B SaaS Platform for Transport Operators
+              </span>
               <h2 className="text-3xl md:text-4xl font-display font-bold">About SaaS by SSH</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                SaaS by SSH is a B2B Software-as-a-Service platform built specifically for bus operators and fleet
-                owners. We provide a fully managed WhatsApp-based ticketing system that lets your customers search
-                routes, book seats, make payments, and receive e-tickets—entirely inside WhatsApp, with zero app
-                downloads required.
+                SaaS by SSH is a WhatsApp-native booking automation platform built exclusively for bus operators,
+                fleet owners, and travel agencies. We give you the software infrastructure to let your passengers
+                search routes, reserve seats, pay, and receive e-tickets—all through WhatsApp, with no app
+                development required on your end.
+              </p>
+              <p className="text-sm text-muted-foreground/80 leading-relaxed">
+                We are a software provider only. SaaS by SSH does not operate any transport service, sell passenger
+                tickets on its own behalf, or act as a travel agent. All bookings made through your WhatsApp
+                number are a direct transaction between you and your passengers.
               </p>
             </motion.div>
 
             {/* Product description cards */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
                 {
                   label: "Who It's For",
-                  content:
-                    "Bus operators, fleet owners, and travel agencies who want to offer a modern, frictionless booking experience to their passengers without building a dedicated mobile app."
+                  items: [
+                    "Bus operators managing intercity or local routes",
+                    "Fleet owners looking to digitise bookings",
+                    "Travel agencies offering multi-operator packages",
+                    "Any transport business that wants to engage passengers on WhatsApp"
+                  ]
                 },
                 {
                   label: "What It Does",
-                  content:
-                    "Our SaaS platform connects your bus inventory and scheduling system to WhatsApp. Passengers can message your business number to check availability, select seats, pay, and get instant e-ticket confirmations."
+                  items: [
+                    "Connects your bus inventory to a WhatsApp chatbot",
+                    "Handles seat selection, payment, and e-ticket delivery in chat",
+                    "Sends automated trip reminders and boarding alerts",
+                    "Manages cancellations and rebooking workflows automatically"
+                  ]
                 },
                 {
                   label: "Key Features",
-                  content:
-                    "Real-time seat availability, automated booking confirmations, payment gateway integration, cancellation & rebooking flows, trip alerts, and a 24/7 AI support chatbot—all managed from one dashboard."
+                  items: [
+                    "Real-time seat availability via WhatsApp",
+                    "Payment gateway integration (UPI, cards, wallets)",
+                    "24/7 AI support chatbot for passenger queries",
+                    "Operator dashboard for bookings, analytics & notifications"
+                  ]
                 }
               ].map((card, i) => (
                 <motion.div
                   key={i}
                   variants={fadeInUp}
-                  className="bg-card/60 border border-white/10 rounded-2xl p-7 space-y-3"
+                  className="bg-card/60 border border-white/10 rounded-2xl p-7 space-y-4"
                 >
-                  <h3 className="text-base font-semibold text-primary uppercase tracking-wide">{card.label}</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">{card.content}</p>
+                  <h3 className="text-sm font-semibold text-primary uppercase tracking-widest">{card.label}</h3>
+                  <ul className="space-y-2">
+                    {card.items.map((item, j) => (
+                      <li key={j} className="flex items-start gap-2 text-sm text-muted-foreground">
+                        <span className="mt-1 w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
                 </motion.div>
               ))}
             </div>
+
+            {/* Value proposition banner */}
+            <motion.div
+              variants={fadeInUp}
+              className="bg-primary/10 border border-primary/20 rounded-2xl px-8 py-6 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left"
+            >
+              <div className="space-y-1">
+                <p className="font-bold text-white text-lg">Ready to automate your bus bookings?</p>
+                <p className="text-sm text-muted-foreground">
+                  Reduce manual coordination, eliminate booking errors, and delight passengers—all through the app they already use.
+                </p>
+              </div>
+              <a
+                href="#contact"
+                className="shrink-0 px-7 py-3 rounded-xl bg-primary hover:bg-primary/90 text-white font-semibold shadow-lg shadow-primary/20 transition-all duration-300 whitespace-nowrap"
+              >
+                Request a Demo
+              </a>
+            </motion.div>
           </motion.div>
         </div>
       </section>
