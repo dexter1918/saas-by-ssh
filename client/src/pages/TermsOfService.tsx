@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 const LAST_UPDATED = "June 13, 2025";
 const BUSINESS_NAME = "SaaS by SSH";
 const BRAND_NAME = "SaaS by SSH";
-const EMAIL = "support@saasbyssh.com";
+const EMAIL = "info@saasbyssh.store";
 const PHONE = "+91 8670582856";
 const ADDRESS = "Kotbarh, Uttar Kotbarh, East Medinipur, West Bengal – 721626, India";
 
@@ -64,6 +64,9 @@ export default function TermsOfService() {
                 <li>We do not own, operate, manage, or take responsibility for any bus service, route, fare, or vehicle.</li>
                 <li>All transport services offered through our platform are solely operated by the subscribing Operator.</li>
                 <li>Passengers transacting through your WhatsApp number are contracting with you, the Operator, not with {BRAND_NAME}.</li>
+                <li>{BRAND_NAME} acts strictly as a <strong className="text-white">technology platform provider</strong>. We do not initiate, review, approve, or control any passenger communications sent through your WhatsApp Business Account.</li>
+                <li>Operators are solely responsible for obtaining lawful user consent prior to any messaging activity. {BRAND_NAME} bears no liability for communications made without valid consent.</li>
+                <li>We reserve the right to immediately suspend or terminate platform access if we determine that Meta's WhatsApp Business Platform policies are being violated, or if our services are being used in a manner that poses legal, reputational, or compliance risk.</li>
               </UL>
 
               <H2>3. Operator Eligibility &amp; Account</H2>
@@ -85,6 +88,7 @@ export default function TermsOfService() {
                 <li>Ensure your WhatsApp Business Account (WABA) remains in good standing with Meta at all times.</li>
                 <li>Not attempt to reverse-engineer, decompile, or extract the source code of any part of our platform.</li>
                 <li>Not resell, sublicense, or provide the platform as a service to third parties without our written consent.</li>
+                <li>Acknowledge that {BRAND_NAME} does not initiate, approve, or accept responsibility for any communications you send via your WhatsApp Business Account. You act as the data controller and independent operator of all passenger-facing messaging.</li>
               </UL>
 
               <H2>5. Service Availability &amp; Support</H2>
@@ -125,6 +129,18 @@ export default function TermsOfService() {
                 <li>We grant you a limited, non-exclusive, non-transferable licence to access and use the platform solely for your internal business operations during your subscription term.</li>
                 <li>Your data (booking records, business information) remains your property. We claim no ownership over it.</li>
                 <li>You grant us a limited licence to process your data solely to deliver the services described herein.</li>
+              </UL>
+
+              <H2>7A. Data Roles &amp; Processing</H2>
+              <p>
+                For the purposes of applicable data protection law (including the Information Technology Act, 2000 and
+                rules thereunder, and equivalent principles under the Digital Personal Data Protection Act, 2023):
+              </p>
+              <UL>
+                <li><strong className="text-white">You (the Operator) are the Data Controller</strong> — you determine the purposes and means by which personal data of your passengers is collected and used.</li>
+                <li><strong className="text-white">{BRAND_NAME} acts as a Data Processor</strong> — we process passenger data only on your documented instructions and solely to deliver the platform services described herein.</li>
+                <li>We will not process passenger data for any purpose beyond what is necessary to fulfil our contractual obligations to you.</li>
+                <li>You are solely responsible for ensuring a valid legal basis exists for any personal data you collect from or about passengers using your WhatsApp Business Account.</li>
               </UL>
 
               <H2>8. Limitation of Liability</H2>

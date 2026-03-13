@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 const LAST_UPDATED = "June 13, 2025";
 const BUSINESS_NAME = "SaaS by SSH";
 const BRAND_NAME = "SaaS by SSH";
-const EMAIL = "support@saasbyssh.com";
+const EMAIL = "info@saasbyssh.store";
 const PHONE = "+91 8670582856";
 const ADDRESS = "Kotbarh, Uttar Kotbarh, East Medinipur, West Bengal – 721626, India";
 
@@ -49,7 +49,7 @@ export default function PrivacyPolicy() {
                 WhatsApp-based Software-as-a-Service (SaaS) platform that provides automation and booking workflow
                 services to transport operators. This Privacy Policy describes how we collect, use, store, and disclose
                 personal data when you use our platform, visit our website at{" "}
-                <span className="text-white">saasbyssh.com</span>, or interact with us in any other way.
+                <span className="text-white">saasbyssh.store</span>, or interact with us in any other way.
               </p>
               <p>
                 By accessing or using our services, you acknowledge that you have read and understood this Privacy
@@ -103,18 +103,24 @@ export default function PrivacyPolicy() {
 
               <H2>4. WhatsApp &amp; Meta Platform Data</H2>
               <p>
-                Our platform integrates with Meta's WhatsApp Business API. Message content processed through our
-                system is used exclusively for delivering booking workflows configured by the operator. We do not:
+                Our platform integrates with Meta's WhatsApp Business API. {BRAND_NAME} acts strictly as a
+                <strong className="text-white"> technology platform provider</strong> — we do not initiate, control,
+                or take responsibility for passenger communications sent by operators through the platform. Message
+                content processed through our system is used exclusively for delivering booking workflows configured
+                by the operator. We do not:
               </p>
               <UL>
                 <li>Use message content to serve advertisements or build user profiles for third parties</li>
                 <li>Share passenger WhatsApp data with any party outside the scope of service delivery</li>
-                <li>Store message content beyond the retention period defined in Section 6</li>
+                <li>Initiate outbound messages to passengers on our own account or authority</li>
+                <li>Store message content beyond the period necessary for service delivery, debugging, and legal compliance</li>
               </UL>
               <p>
                 All integrations comply with{" "}
                 <span className="text-white">Meta's WhatsApp Business Platform Terms of Service</span>. Operators
-                are solely responsible for obtaining valid user consent before initiating outbound messages.
+                are solely and exclusively responsible for obtaining lawful user consent before initiating any
+                outbound messages. We reserve the right to suspend platform access where Meta policy violations
+                are detected or reported.
               </p>
 
               <H2>5. Third-Party Integrations &amp; Data Sharing</H2>
@@ -130,10 +136,22 @@ export default function PrivacyPolicy() {
 
               <H2>6. Data Retention</H2>
               <UL>
-                <li><strong className="text-white">Operator account data</strong> is retained for the duration of the subscription and up to 90 days after account termination, after which it is permanently deleted or anonymised.</li>
-                <li><strong className="text-white">Passenger message logs</strong> are retained for up to 30 days for debugging and support purposes, then automatically purged.</li>
-                <li><strong className="text-white">Booking records</strong> (transaction IDs, ticket references) are retained for up to 5 years for accounting and legal compliance.</li>
-                <li><strong className="text-white">Billing records</strong> are retained for 7 years in accordance with Indian tax laws.</li>
+                <li><strong className="text-white">Operator account data</strong> is retained for the duration of the subscription and for a reasonable period after account termination, after which it is permanently deleted or anonymised, subject to legal requirements.</li>
+                <li><strong className="text-white">Passenger message logs</strong> are retained only as long as necessary for service delivery, debugging, and legal compliance, and are purged when no longer required for those purposes.</li>
+                <li><strong className="text-white">Booking records</strong> (transaction IDs, ticket references) are retained as required for accounting, dispute resolution, and applicable legal obligations.</li>
+                <li><strong className="text-white">Billing records</strong> are retained in accordance with applicable Indian tax laws and statutory requirements.</li>
+              </UL>
+
+              <H2>6A. Data Controller &amp; Processor Roles</H2>
+              <p>
+                For the purposes of applicable data protection law (including the Information Technology Act, 2000
+                and the Digital Personal Data Protection Act, 2023):
+              </p>
+              <UL>
+                <li><strong className="text-white">Operators are Data Controllers</strong> — as a subscribing operator, you determine the purposes and means of processing personal data of your passengers. You are responsible for ensuring a valid legal basis for all passenger data you collect and process through the platform.</li>
+                <li><strong className="text-white">{BRAND_NAME} is a Data Processor</strong> — we process passenger data solely on behalf of operators, strictly within the scope of delivering the platform services, and only on documented instructions.</li>
+                <li>We will not use or disclose passenger data for any purpose other than providing services to you under your subscription agreement.</li>
+                <li>Where required by law or requested by competent authorities, we may be obligated to disclose data regardless of this classification.</li>
               </UL>
 
               <H2>7. Your Rights</H2>

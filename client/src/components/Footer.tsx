@@ -19,8 +19,8 @@ export function Footer() {
             <div className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary shrink-0" />
-                <a href="mailto:support@saasbyssh.com" className="hover:text-white transition-colors">
-                  support@saasbyssh.com
+                <a href="mailto:info@saasbyssh.store" className="hover:text-white transition-colors">
+                  info@saasbyssh.store
                 </a>
               </div>
               <div className="flex items-start gap-2">

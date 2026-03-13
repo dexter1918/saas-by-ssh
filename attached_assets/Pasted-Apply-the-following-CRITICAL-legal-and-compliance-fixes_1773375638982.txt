@@ -1,0 +1,97 @@
+Apply the following CRITICAL legal and compliance fixes across my entire website and backend content. Do not change design layout routing SEO URLs or unrelated code. Only fix legal consistency risk wording and contact identity alignment.
+
+TASK 1 — Fix Email Domain Consistency (HIGH PRIORITY)
+
+Problem:
+Legal pages currently use [support@saasbyssh.com](mailto:support@saasbyssh.com) but my actual domain is saasbyssh.store.
+
+Required actions:
+
+1. Search entire project for:
+
+   * [support@saasbyssh.com](mailto:support@saasbyssh.com)
+   * any @saasbyssh.com email
+2. Replace everywhere with:
+   → [info@saasbyssh.store](mailto:info@saasbyssh.store)
+3. Update in:
+
+   * Terms of Service
+   * Privacy Policy
+   * Refund Policy
+   * Footer
+   * Contact page
+   * Metadata
+   * Backend email templates
+   * Config files
+4. Ensure no mixed domain emails remain.
+
+TASK 2 — Strengthen SaaS Legal Positioning (WhatsApp Compliance)
+
+Add explicit clause in Terms and Privacy:
+
+* SaaS by SSH acts strictly as a technology platform provider.
+* We do not initiate or control passenger communications.
+* Operators are solely responsible for obtaining lawful user consent.
+* We may suspend service if Meta policies are violated.
+
+Place this in:
+
+* Nature of Service section
+* Operator Responsibilities section
+* Privacy WhatsApp Integration section
+
+TASK 3 — Add Data Controller vs Processor Clarification
+
+Add new subsection:
+
+Operator = Data Controller
+SaaS by SSH = Data Processor
+
+Include in:
+
+* Privacy Policy
+* Terms (Data usage section)
+
+Use GDPR-style SaaS wording but India-appropriate.
+
+TASK 4 — Harden Refund Policy Against Abuse
+
+Modify refund policy wording:
+
+* Change “no questions asked” to:
+  → “subject to fair usage compliance and fraud review”
+* Add:
+  → WhatsApp API conversation charges are non-refundable
+* Add:
+  → Refund may be denied in cases of abuse excessive usage or policy violation
+* Add:
+  → Refund timelines depend on payment processor settlement cycles
+* Add:
+  → Taxes refunded subject to statutory rules
+
+TASK 5 — Improve Retention Wording (Privacy)
+
+Replace fixed message retention period wording with:
+
+→ “retained only as long as necessary for service delivery debugging and legal compliance”
+
+Do not promise hard deletion timeline unless technically guaranteed.
+
+TASK 6 — Global Consistency Sweep
+
+After all edits:
+
+* Ensure company name ONLY “SaaS by SSH”
+* Ensure domain ONLY “saasbyssh.store”
+* Ensure email ONLY “[info@saasbyssh.store](mailto:info@saasbyssh.store)”
+* Ensure no legacy placeholder content remains
+
+Output required:
+
+* List of all files changed
+* Short summary of legal improvements applied
+* Confirmed consistency checklist result
+
+Do not refactor unrelated code.
+Do not redesign UI.
+Only apply compliance fixes.

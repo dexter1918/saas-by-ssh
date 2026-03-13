@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 const LAST_UPDATED = "June 13, 2025";
 const BUSINESS_NAME = "SaaS by SSH";
 const BRAND_NAME = "SaaS by SSH";
-const EMAIL = "support@saasbyssh.com";
+const EMAIL = "info@saasbyssh.store";
 const PHONE = "+91 8670582856";
 const ADDRESS = "Kotbarh, Uttar Kotbarh, East Medinipur, West Bengal – 721626, India";
 
@@ -46,7 +46,7 @@ export default function RefundPolicy() {
                 delivering a high-quality WhatsApp-based booking automation platform for transport operators. If you
                 are not satisfied with the platform, we offer a{" "}
                 <strong className="text-white">30-day money-back guarantee</strong> on your initial subscription
-                purchase, with no questions asked.
+                purchase, subject to fair usage compliance and fraud review.
               </p>
               <p>
                 This Refund Policy applies to SaaS subscription fees only. It does not apply to passenger tickets
@@ -78,9 +78,10 @@ export default function RefundPolicy() {
                 <li>Subscription renewals (monthly or annual) beyond the initial purchase</li>
                 <li>Add-on services, custom integrations, or professional services purchased separately</li>
                 <li>Accounts terminated due to violations of our Terms of Service or Meta's policies</li>
-                <li>Platform fees already applied toward WhatsApp API usage charges billed by Meta</li>
+                <li><strong className="text-white">WhatsApp API conversation charges</strong> billed by Meta — these are passed through at cost and are non-refundable under any circumstance</li>
                 <li>Refund requests submitted after the 30-day eligibility window</li>
                 <li>Cases where a chargeback has already been initiated through the payment provider</li>
+                <li>Accounts found to have engaged in <strong className="text-white">abuse, excessive usage, or policy violations</strong> — refunds may be denied entirely at our discretion in such cases</li>
               </UL>
 
               <H2>5. How to Request a Refund</H2>
@@ -110,7 +111,8 @@ export default function RefundPolicy() {
                 <li>We will acknowledge your request within <strong className="text-white">1 business day</strong>.</li>
                 <li>Approved refunds are processed within <strong className="text-white">5–7 business days</strong> of approval.</li>
                 <li>Refunds are credited to the original payment method used at purchase.</li>
-                <li>Depending on your bank or payment provider, the amount may take an additional <strong className="text-white">5–10 business days</strong> to appear in your account. We are not responsible for delays by third-party payment processors.</li>
+                <li>Actual credit timelines depend on your bank or payment provider's settlement cycles and are outside our control. We are not responsible for delays caused by third-party payment processors.</li>
+                <li><strong className="text-white">Tax refunds</strong> (e.g., GST) are subject to applicable statutory rules and may not be refunded in all cases. We will provide a revised invoice or credit note where legally required.</li>
               </UL>
 
               <H2>7. Disputes &amp; Chargebacks</H2>
