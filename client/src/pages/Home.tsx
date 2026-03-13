@@ -98,7 +98,7 @@ export default function Home() {
       </section>
 
       {/* ABOUT / PRODUCT DESCRIPTION SECTION */}
-      <section id="about" className="py-24 bg-card/50 border-y border-white/5 relative">
+      <section id="about" className="pt-12 pb-24 bg-card/50 border-y border-white/5 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial="hidden"
